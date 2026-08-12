@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Who founded NovaTech Solutions?",
+        "expected_keyword": "Elena Vasquez"
+    },
+    {
+        "question": "In what year was NovaTech founded?",
+        "expected_keyword": "2018"
+    },
+    {
+        "question": "Where is NovaTech headquartered?",
+        "expected_keyword": "Austin"
+    },
+    {
+        "question": "How many employees does NovaTech have?",
+        "expected_keyword": "342"
+    },
+    {
+        "question": "What is the name of NovaTech's flagship product?",
+        "expected_keyword": "OptiFlow"
+    },
+    {
+        "question": "How many paid vacation days do new employees receive per year?",
+        "expected_keyword": "22"
+    },
+    {
+        "question": "How many days per week can employees work remotely?",
+        "expected_keyword": "three"
+    },
+    {
+        "question": "What are the core hours employees must be available?",
+        "expected_keyword": "10:00"
+    },
+    {
+        "question": "What day is designated as a no-meetings day?",
+        "expected_keyword": "Friday"
+    },
+    {
+        "question": "How much is the on-call stipend per week?",
+        "expected_keyword": "500"
+    },
+    {
+        "question": "What is the annual learning budget per employee?",
+        "expected_keyword": "3,000"
+    },
+    {
+        "question": "What percentage does NovaTech match for 401(k) contributions?",
+        "expected_keyword": "6"
+    },
+    {
+        "question": "What year did NovaTech achieve ISO 27001 certification?",
+        "expected_keyword": "2023"
+    },
+    {
+        "question": "By what year has NovaTech committed to achieving carbon neutrality?",
+        "expected_keyword": "2028"
+    },
+    {
+        "question": "How much did the NovaTech Foundation distribute in grants in 2024?",
+        "expected_keyword": "2.4 million"
+    }
+]
