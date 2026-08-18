@@ -1,0 +1,23 @@
+# render.yaml – Render.com deployment blueprint for DocuMind backend
+# See https://docs.render.com/blueprint-spec
+
+services:
+  - type: web
+    name: documind-backend
+    runtime: python
+    region: oregon
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    rootDir: backend
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false  # you'll set this manually in the Render dashboard
+      - key: GEMINI_TEXT_MODEL
+        value: gemini-2.5-flash
+      - key: GEMINI_EMBEDDING_MODEL
+        value: gemini-embedding-001
+      - key: CORS_ORIGINS
+        value: https://your-frontend.vercel.app
+      - key: PYTHON_VERSION
+        value: "3.12"
